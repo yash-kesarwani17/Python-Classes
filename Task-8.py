@@ -1,6 +1,7 @@
 file1=open('output.txt','w')
 text_write=input("Enter text to write to the file: ")
 writing_file1=file1.write(text_write)
+writing_file1=file1.write("\n")
 print("Data succerssfully written to output.txt")
 file1.close()
 
